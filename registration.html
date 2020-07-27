@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>registration</title>
+	<style type="text/css">
+		
+
+body{
+	background-image: url(green.jpg);
+}
+
+	</style>
+</head>
+<body>
+	<h1 style="text-align: center; background-color: red; ">Registration form</h1>
+
+	<form class="form1" style="background-color: white; width: 800px; margin-left: 200px;height: 550px;">
+		<label>First Name</label>
+        <input type="text" name="firstname" size="15" placeholder="Enter your name"><br><br>
+
+        <label>Last Name</label>
+        <input type="text" name="lastname" size="15"><br><br>
+
+        <label>gender</label><br>
+        <input type="radio" name="male"/>Male <br>
+        <input type="radio" name="female">Female<br>
+        <input type="radio" name="other">Other<br><br>
+
+        <label>Civil Status</label>
+            <label><input type="radio" name="cstatus"> Single</label>
+            <label><input type="radio" name="cstatus"> Married </label>
+            <label><input type="radio" name="cstatus"> Annulled</label>
+            <label><input type="radio" name="cstatus"> Widowed </label>
+            <label><input type="radio" name="gender"> Seperated</label><br>
+<br>
+        <label>Phone </label>
+        <input type="text" name="country code" value="+92" size="2"/>
+        <input type="text" name="Phone" size="10"/><br><br>
+
+        Address<br>
+        <textarea cols="90" rows="6" value="address" placeholder="write your Address here"></textarea>
+      <br><br>
+      <label>Upload Profile Picture:</label>
+                        <input type="file" name="picture">
+<br><br>
+Email
+<input type="email" name="email" id="email"><br><br><br>
+Password
+<input type="password" name="password" name="password">
+
+<button class="btn1" style="background-color: black; color: white; padding: 16px; font-size: 19px; cursor: pointer;">Submit</button>
+	</form>
+
+</body>
+</html>

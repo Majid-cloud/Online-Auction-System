@@ -1,0 +1,148 @@
+  .menu
+{
+  background-color: black;
+  width:100%;
+}
+.bar 
+{   
+  list-style: none;
+}
+.bar a
+{
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+}
+.bar a
+{
+  float:right;
+}
+.bar a:hover
+{
+  background-color: grey;
+  color:white;
+    box-sizing: border-box; 
+}
+
+
+*
+ {
+  box-sizing: border-box
+}
+
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display:none;}
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 16px 16px;
+  font-size: 17px;
+  width: 8%;
+}
+
+.h11{
+  text-align: center;
+}
+.div1{
+    cursor: pointer;
+  text-align: center;
+   padding-top: 10px; 
+  width: 22%;
+  display: inline-block;
+background-color: red;
+  height: 190px;
+}
+.div2{
+    cursor: pointer;
+    text-align: center;
+    padding-top: 10px;
+  width: 22%;
+    display: inline-block;
+background-color: green;
+  height: 190px;
+}
+.div3{
+  cursor: pointer;
+    text-align: center;
+    padding-top: 10px;
+  display: inline-block;
+  width: 22%;
+background-color: khaki;
+  height: 190px;
+}
+.div4{
+    cursor: pointer;
+    text-align: center;
+  padding-top: 10px;  
+    display: inline-block;
+  width: 22%;
+background-color: blue;
+  height: 190px;
+}
+.divno1{
+  width: 100%;
+  text-align: center;
+}
+
+.section1 {
+  background-color: blue;
+    width: 30%;
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+  }
+
+  .section2 {
+    background-color: pink;
+    width: 30%;
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+  }
+
+  .section3 {
+    background-color: blue;
+    width: 30%;
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+  }
+  .section4 {
+    background-color: orange;
+    width: 30%;
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+  }
+  .section5 {
+    background-color: green;
+    width: 30%;
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+  }
+  .section6 {
+    background-color: purple;
+    width: 30%;
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+  }
+.btn1{
+  background-color: #999;
+  text-align: center;
+  font-size: 23px;  
+  width: 30%;
+  color: white;
+  padding:24px;
+  cursor: pointer;
+}
+.btn1 a{
+  text-decoration: none;
+  color: white;
+}
